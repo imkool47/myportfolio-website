@@ -33,10 +33,19 @@ nav,
         display: flex;
     }
 
+    #desktop-nav{
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
 nav {
+
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 100px;
 }
 
 .nav-links {
@@ -44,6 +53,13 @@ nav {
     list-style: none;
     font-size: 1.5rem;
 }
+#hamburger-nav{
+    /* background-color: blue; */
+}
+.phn-menu-links{
+    width: 100%!important;;
+}
+
 
 a {
     color: black;
