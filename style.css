@@ -34,6 +34,7 @@ nav,
     }
 
     #desktop-nav{
+        z-index:12;
         position:fixed;
         top:0;
         left:0;
